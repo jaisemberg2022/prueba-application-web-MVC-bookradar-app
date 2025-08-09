@@ -1,0 +1,74 @@
+﻿@using BookRadarApp.Models.DTO
+@using static BookRadarApp.Models.DTO.OpenLibraryResponse
+@model List<LibrosPublicadosDTO>
+@{
+    ViewData["Title"] = "Buscar libros";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-lg mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h4 class="mb-4 text-center">Buscar libros</h4>
+
+            <form asp-action="searchBooksByAuthor" method="get" class="p-4 border rounded shadow-sm bg-light">
+                <div class="row g-2 align-items-center">
+                    <div class="col-md-9">
+                        <input type="text" name="author" id="author" class="form-control" placeholder="Ej. Isabel Allende" required />
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary w-100">Buscar</button>
+                    </div>
+                </div>
+            </form>
+
+            @if (ViewBag.Mensaje != null)
+            {
+                <div class="alert alert-warning mt-4" role="alert">
+                    @ViewBag.Mensaje
+                </div>
+            }
+
+            @if (Model != null && Model.Any())
+            {
+                <div class="mt-4">
+                    <h4>Resultados:</h4>
+
+                    @if (Model != null && Model.Any())
+                    {
+               
+
+                        <div class="table-responsive overflow-auto" style="max-height: 50vh; background-color: #f9f9f9; scroll-behavior: smooth;">
+                            <table class="table table-striped table-bordered align-middle mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Título</th>
+                                        <th class="text-end">Año</th>
+                                        <th class="text-end">Ediciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var libro in Model)
+                                    {
+                                        <tr>
+                                            <td>@libro.Titulo</td>
+                                            <td class="text-end">@libro.Año</td>
+                                            <td class="text-end">@libro.Editorial</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                   
+                    else
+                    {
+                        <div class="alert alert-warning mt-3" role="alert">
+                            No se encontraron libros para el autor ingresado.
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

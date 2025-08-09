@@ -139,3 +139,4 @@ C:\Users\toroy\Desktop\BookRadarApp\obj\Debug\net8.0\refint\BookRadarApp.dll
 C:\Users\toroy\Desktop\BookRadarApp\obj\Debug\net8.0\BookRadarApp.pdb
 C:\Users\toroy\Desktop\BookRadarApp\obj\Debug\net8.0\BookRadarApp.genruntimeconfig.cache
 C:\Users\toroy\Desktop\BookRadarApp\obj\Debug\net8.0\ref\BookRadarApp.dll
+C:\Users\toroy\Desktop\BookRadarApp\obj\Debug\net8.0\BookRadarApp.sourcelink.json

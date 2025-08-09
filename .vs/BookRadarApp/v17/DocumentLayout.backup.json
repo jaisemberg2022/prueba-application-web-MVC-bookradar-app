@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\appsettingsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:appsettingsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\views\\books\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:views\\books\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\models\\historialbusquedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:models\\historialbusquedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\services\\apilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:services\\apilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\models\\dto\\librospublicadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:models\\dto\\librospublicadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HistorialBusquedas.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Models\\HistorialBusquedas.cs",
-              "RelativeDocumentMoniker": "Models\\HistorialBusquedas.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Models\\HistorialBusquedas.cs",
-              "RelativeToolTip": "Models\\HistorialBusquedas.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwBEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T03:25:15.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppSettingsDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\AppSettingsDbContext.cs",
-              "RelativeDocumentMoniker": "AppSettingsDbContext.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\AppSettingsDbContext.cs",
-              "RelativeToolTip": "AppSettingsDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T03:08:52.522Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-09T03:04:17.485Z",
+              "Title": "LibrosPublicadosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Models\\DTO\\LibrosPublicadosDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\LibrosPublicadosDTO.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Models\\DTO\\LibrosPublicadosDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\LibrosPublicadosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:55:38.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiLibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\services\\ApiLibraryService.cs",
+              "RelativeDocumentMoniker": "services\\ApiLibraryService.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\services\\ApiLibraryService.cs",
+              "RelativeToolTip": "services\\ApiLibraryService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:32:27.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAoAAABYAAAAAAAAAA==",
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T02:48:47.749Z",
+              "WhenOpened": "2025-08-09T20:10:07.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T19:59:23.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Buscar.cshtml",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Books\\Buscar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Buscar.cshtml",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Books\\Buscar.cshtml*",
+              "RelativeToolTip": "Views\\Books\\Buscar.cshtml*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T19:54:05.347Z",
               "EditorCaption": ""
             }
           ]
