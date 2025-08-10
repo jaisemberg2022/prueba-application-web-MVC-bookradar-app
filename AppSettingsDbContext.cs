@@ -1,4 +1,5 @@
-﻿using BookRadarApp.Models;
+﻿using BookRadarApp.Infraestructure.Config;
+using BookRadarApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookRadarApp
@@ -13,5 +14,10 @@ namespace BookRadarApp
         }
 
         public DbSet<HistorialBusquedas> historialBusquedas { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new HistorialBusquedasConfiguration());
+        }
     }
 }
