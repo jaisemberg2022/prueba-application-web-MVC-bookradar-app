@@ -18,7 +18,7 @@ namespace BookRadarApp.Models
         public string? Titulo { get; set; }
 
         [Required]
-        public int AnioPublicacion { get; set; }
+        public int? AnioPublicacion { get; set; }
 
         [Required]
         [StringLength(50)]

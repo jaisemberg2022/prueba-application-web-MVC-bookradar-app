@@ -13,7 +13,7 @@ namespace BookRadarApp.Controllers
         }
         public IActionResult Buscar()
         {
-            return View(); // Busca Views/Books/Buscar.cshtml
+            return View();
         }
 
 

@@ -8,9 +8,11 @@ namespace BookRadarApp.services
     public class ApiLibraryService
     {
         private readonly HttpClient _httpClient;
-        public ApiLibraryService(HttpClient httpClient)
+        private readonly RecordService _recordService;
+        public ApiLibraryService(HttpClient httpClient, RecordService recordService)
         {
             _httpClient = httpClient;
+            _recordService = recordService;
         }
 
         public async Task<List<LibrosPublicadosDTO>> GetBooksByAuthor(string author)
@@ -25,15 +27,33 @@ namespace BookRadarApp.services
                     PropertyNameCaseInsensitive = true
                 });
 
-                return root?.Docs?.Select(doc => new LibrosPublicadosDTO
+                var libros = root?.Docs?.Select(doc => new LibrosPublicadosDTO
                 {
                     Titulo = doc.Title ?? string.Empty,
                     Año = doc.First_Publish_Year?.ToString() ?? string.Empty,
                     Editorial = doc.Publisher?.FirstOrDefault() ?? string.Empty
                 }).ToList() ?? new List<LibrosPublicadosDTO>();
+
+                if (libros.Any())
+                {
+                    var libro = libros.First();
+
+                    await _recordService.SaveSearchData(new HistorialBusquedaDTO
+                    {
+                        Autor = author,
+                        Titulo = libro.Titulo,
+                        Editorial = libro.Editorial,
+                        AnioPublicacion = int.TryParse(libro.Año, out var año) ? año : null,
+                        FechaBusqueda = DateTime.UtcNow
+                    });
+                }
+
+                return libros;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                var mensaje = ex.InnerException?.Message ?? ex.Message;
+                Console.WriteLine($"Error al guardar en base de datos: {mensaje}");
                 return new List<LibrosPublicadosDTO>();
             }
         }

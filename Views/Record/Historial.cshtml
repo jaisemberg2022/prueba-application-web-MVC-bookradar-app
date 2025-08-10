@@ -1,0 +1,42 @@
+﻿@using BookRadarApp.Models.DTO
+@model List<HistorialBusquedaDTO>
+
+@{
+    ViewData["Title"] = "Historial de búsquedas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Historial de búsquedas</h2>
+
+@if (Model?.Any() == true)
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Autor</th>
+                    <th>Título</th>
+                    <th>Editorial</th>
+                    <th>Año</th>
+                    <th>Fecha de búsqueda</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Autor</td>
+                        <td>@item.Titulo</td>
+                        <td>@item.Editorial</td>
+                        <td>@item.AnioPublicacion</td>
+                        <td>@item.FechaBusqueda.ToString("yyyy-MM-dd HH:mm")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">No hay registros disponibles.</div>
+}

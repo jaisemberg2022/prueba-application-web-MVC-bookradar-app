@@ -15,6 +15,9 @@ builder.Services.AddDbContext<AppSettingsDbContext>(options =>
 builder.Services.AddHttpClient<ApiLibraryService>();
 builder.Services.AddScoped<ApiLibraryService>();
 
+builder.Services.AddHttpClient<RecordService>();
+builder.Services.AddScoped<RecordService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
