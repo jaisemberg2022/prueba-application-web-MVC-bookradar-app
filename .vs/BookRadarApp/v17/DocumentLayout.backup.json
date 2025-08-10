@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\views\\record\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:views\\record\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\views\\searchlog\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:views\\searchlog\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\views\\books\\buscar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,24 +15,44 @@
       "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\services\\recordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:services\\recordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\services\\apilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:services\\apilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\controllers\\recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:controllers\\recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\domain\\books\\apibooklibrarydomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:domain\\books\\apibooklibrarydomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\controllers\\searchlog\\searchlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:controllers\\searchlog\\searchlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\controllers\\books\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:controllers\\books\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\application\\searchlog\\searchlogapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:application\\searchlog\\searchlogapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\application\\interfaces\\searchlog\\isearchlogapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:application\\interfaces\\searchlog\\isearchlogapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\domain\\interfaces\\searchlog\\isearchlogdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:domain\\interfaces\\searchlog\\isearchlogdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\domain\\searchlog\\searchlogdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:domain\\searchlog\\searchlogdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\infraestructure\\repository\\searchlog\\searchlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:infraestructure\\repository\\searchlog\\searchlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|c:\\users\\toroy\\desktop\\bookradarapp\\infraestructure\\repository\\interfaces\\searchlog\\isearchlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D3F54C-515C-4CD6-8132-0D530A30E417}|BookRadarApp.csproj|solutionrelative:infraestructure\\repository\\interfaces\\searchlog\\isearchlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,35 +61,136 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 216,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 386,
+          "SelectedChildIndex": 9,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Historial.cshtml",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Record\\Historial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Record\\Historial.cshtml",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Record\\Historial.cshtml*",
-              "RelativeToolTip": "Views\\Record\\Historial.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T14:19:15.225Z",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:31:47.342Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISearchLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Infraestructure\\Repository\\Interfaces\\SearchLog\\ISearchLogRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\Interfaces\\SearchLog\\ISearchLogRepository.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Infraestructure\\Repository\\Interfaces\\SearchLog\\ISearchLogRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\Interfaces\\SearchLog\\ISearchLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:35:21.815Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchLogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Infraestructure\\Repository\\SearchLog\\SearchLogRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repository\\SearchLog\\SearchLogRepository.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Infraestructure\\Repository\\SearchLog\\SearchLogRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repository\\SearchLog\\SearchLogRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:35:40.055Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISearchLogDomain.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Domain\\Interfaces\\SearchLog\\ISearchLogDomain.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\SearchLog\\ISearchLogDomain.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Domain\\Interfaces\\SearchLog\\ISearchLogDomain.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\SearchLog\\ISearchLogDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:50:59.867Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SearchLogDomain.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Domain\\SearchLog\\SearchLogDomain.cs",
+              "RelativeDocumentMoniker": "Domain\\SearchLog\\SearchLogDomain.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Domain\\SearchLog\\SearchLogDomain.cs",
+              "RelativeToolTip": "Domain\\SearchLog\\SearchLogDomain.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:53:00.856Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISearchLogApplication.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Application\\Interfaces\\SearchLog\\ISearchLogApplication.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\SearchLog\\ISearchLogApplication.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Application\\Interfaces\\SearchLog\\ISearchLogApplication.cs",
+              "RelativeToolTip": "Application\\Interfaces\\SearchLog\\ISearchLogApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:56:47.647Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchLogApplication.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Application\\SearchLog\\SearchLogApplication.cs",
+              "RelativeDocumentMoniker": "Application\\SearchLog\\SearchLogApplication.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Application\\SearchLog\\SearchLogApplication.cs",
+              "RelativeToolTip": "Application\\SearchLog\\SearchLogApplication.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T18:57:23.796Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RecordController.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\RecordController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecordController.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\RecordController.cs*",
-              "RelativeToolTip": "Controllers\\RecordController.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAsAAAAJAAAAAAAAAA==",
+              "Title": "SearchLogController.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\SearchLog\\SearchLogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SearchLog\\SearchLogController.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\SearchLog\\SearchLogController.cs",
+              "RelativeToolTip": "Controllers\\SearchLog\\SearchLogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T14:22:05.868Z",
+              "WhenOpened": "2025-08-10T18:58:53.208Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Historial.cshtml",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\SearchLog\\Historial.cshtml",
+              "RelativeDocumentMoniker": "Views\\SearchLog\\Historial.cshtml",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\SearchLog\\Historial.cshtml*",
+              "RelativeToolTip": "Views\\SearchLog\\Historial.cshtml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-10T22:01:33.933Z",
               "EditorCaption": ""
             },
             {
@@ -80,26 +201,9 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T16:06:58.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RecordService.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\services\\RecordService.cs",
-              "RelativeDocumentMoniker": "services\\RecordService.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\services\\RecordService.cs*",
-              "RelativeToolTip": "services\\RecordService.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwCUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T14:37:38.504Z",
+              "WhenOpened": "2025-08-10T20:44:52.63Z",
               "EditorCaption": ""
             },
             {
@@ -110,48 +214,35 @@
               "RelativeDocumentMoniker": "Views\\Books\\Buscar.cshtml",
               "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Views\\Books\\Buscar.cshtml",
               "RelativeToolTip": "Views\\Books\\Buscar.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-10T15:18:17.41Z",
+              "WhenOpened": "2025-08-10T20:41:19.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApiLibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\services\\ApiLibraryService.cs",
-              "RelativeDocumentMoniker": "services\\ApiLibraryService.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\services\\ApiLibraryService.cs",
-              "RelativeToolTip": "services\\ApiLibraryService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowDoAAAAIAAAAAAAAAA==",
+              "Title": "ApiBookLibraryDomain.cs",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Domain\\Books\\ApiBookLibraryDomain.cs",
+              "RelativeDocumentMoniker": "Domain\\Books\\ApiBookLibraryDomain.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Domain\\Books\\ApiBookLibraryDomain.cs",
+              "RelativeToolTip": "Domain\\Books\\ApiBookLibraryDomain.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T14:46:16.762Z",
+              "WhenOpened": "2025-08-10T19:58:04.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\Books\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Books\\BooksController.cs",
+              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Controllers\\Books\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\Books\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T15:19:03.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\toroy\\Desktop\\BookRadarApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T15:31:47.342Z",
+              "WhenOpened": "2025-08-10T19:57:50.237Z",
               "EditorCaption": ""
             }
           ]

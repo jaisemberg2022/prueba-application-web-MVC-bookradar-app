@@ -1,5 +1,16 @@
 using BookRadarApp;
-using BookRadarApp.services;
+using BookRadarApp.Application.Books;
+using BookRadarApp.Application.Interfaces.Books;
+using BookRadarApp.Application.Interfaces.SearchLog;
+using BookRadarApp.Application.SearchLog;
+using BookRadarApp.Domain.Books;
+using BookRadarApp.Domain.Interfaces.Books;
+using BookRadarApp.Domain.Interfaces.SearchLog;
+using BookRadarApp.Domain.SearchLog;
+using BookRadarApp.Infraestructure.Repository.Books;
+using BookRadarApp.Infraestructure.Repository.Interfaces.Books;
+using BookRadarApp.Infraestructure.Repository.Interfaces.SearchLog;
+using BookRadarApp.Infraestructure.Repository.SearchLog;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,11 +23,18 @@ builder.Services.AddDbContext<AppSettingsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AppSettingsDbContext"));
 });
 
-builder.Services.AddHttpClient<ApiLibraryService>();
-builder.Services.AddScoped<ApiLibraryService>();
+builder.Services.AddHttpClient<IApiBookLibraryRepository, ApiBookLibraryRepository>();
 
-builder.Services.AddHttpClient<RecordService>();
-builder.Services.AddScoped<RecordService>();
+//Repositorios
+builder.Services.AddScoped<IApiBookLibraryRepository, ApiBookLibraryRepository>();
+builder.Services.AddScoped<ISearchLogRepository, SearchLogRepository>();
+//Dominios
+builder.Services.AddScoped<IApiBookLibraryDomain, ApiBookLibraryDomain>();
+builder.Services.AddScoped<ISearchLogDomain, SearchLogDomain>();
+//Aplicaciones
+builder.Services.AddScoped<IApiBookLibraryApplication, ApiBookLibraryApplication>();
+builder.Services.AddScoped<ISearchLogApplication, SearchLogApplication>();
+
 
 var app = builder.Build();
 

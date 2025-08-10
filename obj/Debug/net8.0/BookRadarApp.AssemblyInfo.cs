@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookRadarApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9347e4e1b55ed0ed8e8d0a8a41d885e3ffdbb0eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5e0ae90c8b4f44ecd2a7ff519de885c0112750d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookRadarApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookRadarApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
